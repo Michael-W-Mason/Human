@@ -25,7 +25,7 @@ public class Human
     // Build Attack method
     public int Attack(Human target)
     {
-        target.Health = target.Health - this.Strength;
+        target.Health = target.Health - 5*Strength;
         return target.Health;
     }
 }
